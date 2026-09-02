@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.1" src="https://img.shields.io/badge/release-0.2.1-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.2" src="https://img.shields.io/badge/release-0.2.2-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -74,11 +74,52 @@ The website and Android app can use the same account. Both Russian and English i
 
 ## Interface
 
-### Web catalog
+### Web — catalog, search, and themes
 
-<p align="center">
-  <img src="media/web-catalog.png" alt="GamesTrack web catalog" width="100%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="media/web-catalog-expanded.png" alt="GamesTrack catalog in dark mode" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-light-theme.png" alt="GamesTrack catalog in light mode" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Dark mode and popular releases</sub></td>
+    <td align="center"><sub>Light mode</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/web-search-ratings.png" alt="Game search with ratings" width="100%" /></td>
+    <td align="center"><img src="media/web-completed-export.png" alt="Completed games and exports" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Search, critic scores, and player ratings</sub></td>
+    <td align="center"><sub>PDF, TXT, and a public ranking</sub></td>
+  </tr>
+</table>
+
+### Web — calendars
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="media/web-calendar-all.png" alt="All game releases calendar" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-calendar-personal.png" alt="Personal GamesTrack calendar" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Every platform-specific date</sub></td>
+    <td align="center"><sub>Tracked releases only</sub></td>
+  </tr>
+</table>
+
+### Web — game details and gallery
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="media/web-game-prices.png" alt="Game details with prices and reminders" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-gallery-fullscreen.png" alt="Full-screen game gallery" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Prices, platforms, and personal library</sub></td>
+    <td align="center"><sub>Full-screen screenshots</sub></td>
+  </tr>
+</table>
 
 ### Android — catalog and themes
 
@@ -130,32 +171,26 @@ The website and Android app can use the same account. Both Russian and English i
 <table align="center">
   <tr>
     <td align="center"><img src="media/android-profile-updates.png" alt="Manual update check in Profile" width="290" /></td>
-    <td align="center"><img src="media/android-updater.png" alt="Native GamesTrack update prompt" width="290" /></td>
-    <td align="center"><img src="media/android-gallery-fullscreen.png" alt="GamesTrack full-screen gallery" width="290" /></td>
+    <td align="center"><img src="media/android-update-changelog.png" alt="GamesTrack update dialog with release notes" width="290" /></td>
+    <td align="center"><img src="media/android-update-progress.png" alt="GamesTrack update download progress" width="290" /></td>
   </tr>
   <tr>
     <td align="center"><sub>Manual update check</sub></td>
-    <td align="center"><sub>Fresh APK download</sub></td>
-    <td align="center"><sub>Full-screen viewer</sub></td>
+    <td align="center"><sub>Version, size, and changelog</sub></td>
+    <td align="center"><sub>Live download progress</sub></td>
   </tr>
 </table>
-
-### Game details
-
-<p align="center">
-  <img src="media/web-game-detail.png" alt="GamesTrack game details page" width="100%" />
-</p>
 
 ## Installation
 
 1. Open the [latest release](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Download `GamesTrack-0.2.1.apk`.
+2. Download `GamesTrack-0.2.2.apk`.
 3. Open the APK on your Android device and approve installation from the selected source.
 4. Allow notifications on first launch if you want release reminders.
 
 Android 7.0 or newer is required. Google Play distribution will be added later. The web version is always available at [gamestrack.top](https://gamestrack.top).
 
-Starting with version 0.2.1, the app checks this repository directly once a day and offers to download a newer APK when available. The APK is verified against its published SHA-256 checksum before the system installer opens. You can also run the check manually from Profile. Android always requires final installation confirmation, and the first update requires allowing installs from GamesTrack.
+Starting with version 0.2.1, the app checks this repository directly once a day. Version 0.2.2 adds a dedicated update center with release notes, APK size, live download progress, SHA-256 verification, and installation status. You can also run the check manually from Profile. Android always requires final installation confirmation, and the first update requires allowing installs from GamesTrack.
 
 ## Data and privacy
 

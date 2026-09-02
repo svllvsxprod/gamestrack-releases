@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.1" src="https://img.shields.io/badge/release-0.2.1-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.2" src="https://img.shields.io/badge/release-0.2.2-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -74,11 +74,52 @@ GamesTrack собирает игровые релизы в одном катал
 
 ## Интерфейс
 
-### Веб-каталог
+### Веб — каталог, поиск и темы
 
-<p align="center">
-  <img src="media/web-catalog.png" alt="Каталог GamesTrack в веб-версии" width="100%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="media/web-catalog-expanded.png" alt="Каталог GamesTrack в тёмной теме" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-light-theme.png" alt="Каталог GamesTrack в светлой теме" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Тёмная тема и популярные релизы</sub></td>
+    <td align="center"><sub>Светлая тема</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="media/web-search-ratings.png" alt="Поиск игр с оценками" width="100%" /></td>
+    <td align="center"><img src="media/web-completed-export.png" alt="Пройденные игры и экспорт" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Поиск и оценки критиков и игроков</sub></td>
+    <td align="center"><sub>PDF, TXT и публичный топ</sub></td>
+  </tr>
+</table>
+
+### Веб — календари
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="media/web-calendar-all.png" alt="Общий календарь игровых релизов" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-calendar-personal.png" alt="Личный календарь GamesTrack" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Все даты по платформам</sub></td>
+    <td align="center"><sub>Только отслеживаемые релизы</sub></td>
+  </tr>
+</table>
+
+### Веб — карточка игры и галерея
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="media/web-game-prices.png" alt="Карточка игры с ценами и напоминаниями" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-gallery-fullscreen.png" alt="Полноэкранная галерея игры" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Цены, платформы и личная библиотека</sub></td>
+    <td align="center"><sub>Полноэкранные скриншоты</sub></td>
+  </tr>
+</table>
 
 ### Android — каталог и темы
 
@@ -130,32 +171,26 @@ GamesTrack собирает игровые релизы в одном катал
 <table align="center">
   <tr>
     <td align="center"><img src="media/android-profile-updates.png" alt="Проверка обновлений в профиле" width="290" /></td>
-    <td align="center"><img src="media/android-updater.png" alt="Нативное предложение обновить GamesTrack" width="290" /></td>
-    <td align="center"><img src="media/android-gallery-fullscreen.png" alt="Полноэкранная галерея GamesTrack" width="290" /></td>
+    <td align="center"><img src="media/android-update-changelog.png" alt="Новое окно обновления GamesTrack с описанием изменений" width="290" /></td>
+    <td align="center"><img src="media/android-update-progress.png" alt="Загрузка обновления GamesTrack с прогрессом" width="290" /></td>
   </tr>
   <tr>
     <td align="center"><sub>Ручная проверка</sub></td>
-    <td align="center"><sub>Загрузка свежего APK</sub></td>
-    <td align="center"><sub>Полноэкранный просмотр</sub></td>
+    <td align="center"><sub>Версия, размер и changelog</sub></td>
+    <td align="center"><sub>Живой прогресс загрузки</sub></td>
   </tr>
 </table>
-
-### Подробная страница игры
-
-<p align="center">
-  <img src="media/web-game-detail.png" alt="Подробная страница игры в GamesTrack" width="100%" />
-</p>
 
 ## Установка
 
 1. Откройте [последний релиз](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Скачайте файл `GamesTrack-0.2.1.apk`.
+2. Скачайте файл `GamesTrack-0.2.2.apk`.
 3. Откройте APK на Android-устройстве и подтвердите установку из выбранного источника.
 4. При первом запуске разрешите уведомления, если хотите получать напоминания о релизах.
 
 Требуется Android 7.0 или новее. Публикация в Google Play будет добавлена позднее. Веб-версия всегда доступна на [gamestrack.top](https://gamestrack.top).
 
-Начиная с версии 0.2.1 приложение раз в сутки проверяет этот репозиторий напрямую и при наличии новой версии предлагает скачать APK. Перед открытием системного установщика файл сверяется с опубликованной контрольной суммой SHA-256. Проверку также можно запустить вручную в профиле. Android всегда просит пользователя подтвердить установку; при первом обновлении потребуется разрешить установку из GamesTrack.
+Начиная с версии 0.2.1 приложение раз в сутки проверяет этот репозиторий напрямую. В версии 0.2.2 появился отдельный центр обновления: он показывает changelog и размер APK, отображает живой прогресс загрузки, проверку SHA-256 и подготовку установки. Проверку также можно запустить вручную в профиле. Android всегда просит пользователя подтвердить установку; при первом обновлении потребуется разрешить установку из GamesTrack.
 
 ## Данные и приватность
 
