@@ -1,7 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="128" viewBox="0 0 680 128" role="img" aria-label="Telegram channel">
-  <rect width="680" height="128" rx="28" fill="#229ed9"/>
-  <circle cx="70" cy="64" r="34" fill="#fff" fill-opacity=".18"/>
-  <path d="M48 62 91 45c5-2 9 1 7 8L91 86c-1 6-6 7-10 4L69 81l-6 6c-2 2-3 3-6 3l2-13 25-23c1-1 0-2-2-1L52 72l-13-4c-6-2-6-5 1-8z" fill="#fff"/>
-  <text x="124" y="57" fill="#fff" font-family="Arial,sans-serif" font-size="23" font-weight="700">svllvsxprod on Telegram</text>
-  <text x="124" y="88" fill="#fff" fill-opacity=".80" font-family="Arial,sans-serif" font-size="18">Новости и обратная связь</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="92" viewBox="0 0 340 92" role="img" aria-label="Telegram-канал svllvsxprod">
+  <defs>
+    <linearGradient id="telegram" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c1f1"/>
+      <stop offset="1" stop-color="#168acd"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="336" height="88" rx="24" fill="url(#telegram)"/>
+  <circle cx="48" cy="46" r="25" fill="#ffffff" fill-opacity="0.18"/>
+  <path d="M31 45l34-13-6 30-11-8-6 6 1-10-12-5zm13 3l3 3 9-10-12 7z" fill="#ffffff"/>
+  <text x="88" y="38" fill="#e0f2fe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Новости разработки</text>
+  <text x="88" y="63" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="800">@svllvsxprod</text>
 </svg>

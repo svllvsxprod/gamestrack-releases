@@ -27,8 +27,8 @@
       <p>Поддержка помогает оплачивать сервер, источники данных и выпускать новые версии GamesTrack.</p>
       <table align="center">
         <tr>
-          <td align="center" width="350"><a href="https://t.me/tribute/app?startapp=dK9j"><img src="media/support/tribute.svg" width="340" alt="Поддержать через Tribute" /></a></td>
-          <td align="center" width="350"><a href="https://nowpayments.io/donation/svllvsx"><img src="media/support/crypto.svg" width="340" alt="Поддержать криптовалютой" /></a></td>
+          <td align="center" width="350"><a href="https://t.me/tribute/app?startapp=dK9j"><img src="media/support/support-tribute.svg" width="340" alt="Поддержать через Tribute" /></a></td>
+          <td align="center" width="350"><a href="https://nowpayments.io/donation/svllvsx"><img src="media/support/support-nowpayments.svg" width="340" alt="Поддержать через NOWPayments" /></a></td>
         </tr>
         <tr>
           <td align="center" colspan="2"><a href="https://t.me/svllvsxprod"><img src="media/support/telegram.svg" width="340" alt="Telegram-канал svllvsxprod" /></a></td>
@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.0" src="https://img.shields.io/badge/release-0.2.0-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.1" src="https://img.shields.io/badge/release-0.2.1-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -70,6 +70,7 @@ GamesTrack собирает игровые релизы в одном катал
 - Информация о ценах и предзаказах по мере появления данных магазинов.
 - Локализация RU/EN, светлая и тёмная темы.
 - Веб-приложение и нативная Android-сборка.
+- Автономное обновление Android напрямую из GitHub Releases с проверкой SHA-256.
 
 ## Интерфейс
 
@@ -79,18 +80,63 @@ GamesTrack собирает игровые релизы в одном катал
   <img src="media/web-catalog.png" alt="Каталог GamesTrack в веб-версии" width="100%" />
 </p>
 
-### Android
+### Android — каталог и темы
 
 <table align="center">
   <tr>
     <td align="center"><img src="media/android-light.png" alt="GamesTrack для Android — светлая тема" width="290" /></td>
     <td align="center"><img src="media/android-dark.png" alt="GamesTrack для Android — тёмная тема" width="290" /></td>
-    <td align="center"><img src="media/android-game-detail.png" alt="Страница игры в GamesTrack для Android" width="290" /></td>
+    <td align="center"><img src="media/android-filters.png" alt="Фильтры каталога GamesTrack для Android" width="290" /></td>
   </tr>
   <tr>
     <td align="center"><sub>Светлая тема</sub></td>
     <td align="center"><sub>Тёмная тема</sub></td>
+    <td align="center"><sub>Компактные фильтры</sub></td>
+  </tr>
+</table>
+
+### Android — отслеживание и коллекция
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="media/android-reminders.png" alt="Выбор платформ для напоминаний" width="290" /></td>
+    <td align="center"><img src="media/android-my-games.png" alt="Отслеживаемые игры" width="290" /></td>
+    <td align="center"><img src="media/android-personal-calendar.png" alt="Личный календарь релизов" width="290" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Напоминания по платформам</sub></td>
+    <td align="center"><sub>Мои игры</sub></td>
+    <td align="center"><sub>Личный календарь</sub></td>
+  </tr>
+</table>
+
+### Android — карточка игры, галерея и экспорт
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="media/android-game-detail.png" alt="Страница игры в GamesTrack для Android" width="290" /></td>
+    <td align="center"><img src="media/android-game-gallery.png" alt="Трейлер и скриншоты игры" width="290" /></td>
+    <td align="center"><img src="media/android-completed-export.png" alt="Экспорт пройденных игр" width="290" /></td>
+  </tr>
+  <tr>
     <td align="center"><sub>Карточка игры</sub></td>
+    <td align="center"><sub>Трейлер и галерея</sub></td>
+    <td align="center"><sub>PDF, TXT и публичный топ</sub></td>
+  </tr>
+</table>
+
+### Автономное обновление Android
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="media/android-profile-updates.png" alt="Проверка обновлений в профиле" width="290" /></td>
+    <td align="center"><img src="media/android-updater.png" alt="Нативное предложение обновить GamesTrack" width="290" /></td>
+    <td align="center"><img src="media/android-gallery-fullscreen.png" alt="Полноэкранная галерея GamesTrack" width="290" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Ручная проверка</sub></td>
+    <td align="center"><sub>Загрузка свежего APK</sub></td>
+    <td align="center"><sub>Полноэкранный просмотр</sub></td>
   </tr>
 </table>
 
@@ -103,11 +149,13 @@ GamesTrack собирает игровые релизы в одном катал
 ## Установка
 
 1. Откройте [последний релиз](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Скачайте файл `GamesTrack-0.2.0.apk`.
+2. Скачайте файл `GamesTrack-0.2.1.apk`.
 3. Откройте APK на Android-устройстве и подтвердите установку из выбранного источника.
 4. При первом запуске разрешите уведомления, если хотите получать напоминания о релизах.
 
 Требуется Android 7.0 или новее. Публикация в Google Play будет добавлена позднее. Веб-версия всегда доступна на [gamestrack.top](https://gamestrack.top).
+
+Начиная с версии 0.2.1 приложение раз в сутки проверяет этот репозиторий напрямую и при наличии новой версии предлагает скачать APK. Перед открытием системного установщика файл сверяется с опубликованной контрольной суммой SHA-256. Проверку также можно запустить вручную в профиле. Android всегда просит пользователя подтвердить установку; при первом обновлении потребуется разрешить установку из GamesTrack.
 
 ## Данные и приватность
 
