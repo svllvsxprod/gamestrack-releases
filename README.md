@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.2" src="https://img.shields.io/badge/release-0.2.2-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.3" src="https://img.shields.io/badge/release-0.2.3-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -112,7 +112,7 @@ GamesTrack собирает игровые релизы в одном катал
 
 <table align="center">
   <tr>
-    <td align="center" width="50%"><img src="media/web-game-prices.png" alt="Карточка игры с ценами и напоминаниями" width="100%" /></td>
+    <td align="center" width="50%"><img src="media/web-game-prices.png" alt="Карточка Witchbrook с трейлером и напоминаниями" width="100%" /></td>
     <td align="center" width="50%"><img src="media/web-gallery-fullscreen.png" alt="Полноэкранная галерея игры" width="100%" /></td>
   </tr>
   <tr>
@@ -184,13 +184,13 @@ GamesTrack собирает игровые релизы в одном катал
 ## Установка
 
 1. Откройте [последний релиз](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Скачайте файл `GamesTrack-0.2.2.apk`.
+2. Скачайте файл `GamesTrack-0.2.3.apk`.
 3. Откройте APK на Android-устройстве и подтвердите установку из выбранного источника.
 4. При первом запуске разрешите уведомления, если хотите получать напоминания о релизах.
 
 Требуется Android 7.0 или новее. Публикация в Google Play будет добавлена позднее. Веб-версия всегда доступна на [gamestrack.top](https://gamestrack.top).
 
-Начиная с версии 0.2.1 приложение раз в сутки проверяет этот репозиторий напрямую. В версии 0.2.2 появился отдельный центр обновления: он показывает changelog и размер APK, отображает живой прогресс загрузки, проверку SHA-256 и подготовку установки. Проверку также можно запустить вручную в профиле. Android всегда просит пользователя подтвердить установку; при первом обновлении потребуется разрешить установку из GamesTrack.
+Начиная с версии 0.2.1 приложение раз в сутки проверяет этот репозиторий напрямую. Центр обновления показывает changelog и размер APK, отображает живой прогресс загрузки, проверку SHA-256 и подготовку установки. В версии 0.2.3 в нём используется полноценная иконка GamesTrack. Проверку также можно запустить вручную в профиле. Android всегда просит пользователя подтвердить установку; при первом обновлении потребуется разрешить установку из GamesTrack.
 
 ## Данные и приватность
 
