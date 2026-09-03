@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.11" src="https://img.shields.io/badge/release-0.2.11-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.12" src="https://img.shields.io/badge/release-0.2.12-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -184,13 +184,13 @@ The website and Android app can use the same account. Both Russian and English i
 ## Installation
 
 1. Open the [latest release](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Download `GamesTrack-0.2.11.apk`.
+2. Download `GamesTrack-0.2.12.apk`.
 3. Open the APK on your Android device and approve installation from the selected source.
 4. Allow notifications on first launch if you want release reminders.
 
 Android 7.0 or newer is required. Google Play distribution will be added later. The web version is always available at [gamestrack.top](https://gamestrack.top).
 
-Version 0.2.8 introduced the permanent GamesTrack signature. If 0.2.7 or an earlier test APK is installed, uninstall it once before installing 0.2.11. Versions 0.2.8 and newer update in place without uninstalling the app.
+Version 0.2.8 introduced the permanent GamesTrack signature. If 0.2.7 or an earlier test APK is installed, uninstall it once before installing 0.2.12. Versions 0.2.8 and newer update in place without uninstalling the app.
 
 Starting with version 0.2.1, the app checks this repository directly once a day. The update center shows release notes, APK size, live download progress, SHA-256 verification, and installation status. Version 0.2.3 uses the full GamesTrack app icon in this dialog. You can also run the check manually from Profile. Android always requires final installation confirmation, and the first update requires allowing installs from GamesTrack.
 
