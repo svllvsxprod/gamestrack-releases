@@ -1,17 +1,17 @@
-# GamesTrack 0.2.12
+# GamesTrack 0.2.13
 
 ## Русский
 
-- Вход через Google теперь использует системный выбор аккаунта Android и показывает аккаунты, уже добавленные на устройство.
-- При первом запуске GamesTrack сам предлагает включить уведомления и затем открывает системный запрос разрешения.
-- В профиле по-прежнему можно проверить состояние уведомлений или открыть системные настройки.
+- В профиль возвращено полное штатное меню авторизации Clerk с email/username, Discord и Google.
+- Исправлена регистрация подписи production APK в Clerk: вход через Google больше не должен завершаться ошибкой после выбора аккаунта.
+- Незавершённый сценарий входа теперь остаётся открытым до окончания всех шагов Clerk.
 
 > Если установлена версия 0.2.8 или новее, APK обновляется поверх без удаления приложения.
 
 ## English
 
-- Google sign-in now uses Android's native account picker and shows accounts already added to the device.
-- On first launch, GamesTrack now explains notifications and opens the system permission prompt after confirmation.
-- The profile still shows notification status and provides a shortcut to system settings.
+- The complete stock Clerk authentication screen is back in the profile, with email/username, Discord, and Google.
+- Fixed the production APK signature registration in Clerk so Google sign-in no longer fails after account selection.
+- Pending authentication now stays mounted until every Clerk-owned step is complete.
 
 > If version 0.2.8 or newer is installed, this APK updates it in place without uninstalling the app.
