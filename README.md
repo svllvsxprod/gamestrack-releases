@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.9" src="https://img.shields.io/badge/release-0.2.9-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.11" src="https://img.shields.io/badge/release-0.2.11-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -184,13 +184,13 @@ GamesTrack собирает игровые релизы в одном катал
 ## Установка
 
 1. Откройте [последний релиз](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Скачайте файл `GamesTrack-0.2.9.apk`.
+2. Скачайте файл `GamesTrack-0.2.11.apk`.
 3. Откройте APK на Android-устройстве и подтвердите установку из выбранного источника.
 4. При первом запуске разрешите уведомления, если хотите получать напоминания о релизах.
 
 Требуется Android 7.0 или новее. Публикация в Google Play будет добавлена позднее. Веб-версия всегда доступна на [gamestrack.top](https://gamestrack.top).
 
-Версия 0.2.8 впервые получила постоянную подпись GamesTrack. Если у вас установлена 0.2.7 или более ранняя тестовая APK, один раз удалите её перед установкой 0.2.9. Версии 0.2.8 и новее обновляются поверх без удаления приложения.
+Версия 0.2.8 впервые получила постоянную подпись GamesTrack. Если у вас установлена 0.2.7 или более ранняя тестовая APK, один раз удалите её перед установкой 0.2.11. Версии 0.2.8 и новее обновляются поверх без удаления приложения.
 
 Начиная с версии 0.2.1 приложение раз в сутки проверяет этот репозиторий напрямую. Центр обновления показывает changelog и размер APK, отображает живой прогресс загрузки, проверку SHA-256 и подготовку установки. В версии 0.2.3 в нём используется полноценная иконка GamesTrack. Проверку также можно запустить вручную в профиле. Android всегда просит пользователя подтвердить установку; при первом обновлении потребуется разрешить установку из GamesTrack.
 
