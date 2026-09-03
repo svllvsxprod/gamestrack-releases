@@ -1,13 +1,15 @@
-# GamesTrack 0.2.3
+# GamesTrack 0.2.5
 
 ## Русский
 
-- Окно обновления Android теперь использует настоящую иконку GamesTrack вместо текстовой буквы.
-- Для трейлеров добавлено аккуратное превью и прямая кнопка YouTube: ролики с ограничением 18+ больше не портят карточку системной ошибкой плеера.
-- Улучшена стабильность проверки и установки обновлений Android.
+- В карточке игры теперь показан минимум цены за 180 дней.
+- Добавлена компактная история реальных изменений цены по каждому магазину.
+- Уведомления отдельно сообщают о начале скидки и показывают её размер.
+- Исправлены цены предзаказа Xbox и PlayStation; ложные предложения за $0 больше не отображаются.
 
 ## English
 
-- The Android update dialog now uses the real GamesTrack app icon instead of a text letter.
-- Trailers now have a polished preview and direct YouTube fallback, so age-restricted videos no longer leave an ugly player error in the game page.
-- Improved the reliability of Android update checks and installation.
+- Game pages now show the 180-day price low.
+- Added a compact history of actual price changes for each store.
+- Notifications now distinguish a newly started sale and include its discount percentage.
+- Fixed Xbox and PlayStation pre-order prices; false $0 offers are no longer shown.

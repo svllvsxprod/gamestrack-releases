@@ -42,7 +42,7 @@
   <img alt="Android 7+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white">
   <img alt="Web" src="https://img.shields.io/badge/Web-gamestrack.top-246BFD?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white">
   <img alt="RU and EN" src="https://img.shields.io/badge/locales-RU_%C2%B7_EN-7C5CFC?style=for-the-badge">
-  <img alt="Release 0.2.3" src="https://img.shields.io/badge/release-0.2.3-18A66A?style=for-the-badge">
+  <img alt="Release 0.2.5" src="https://img.shields.io/badge/release-0.2.5-18A66A?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ GamesTrack собирает игровые релизы в одном катал
 - Разделы «Куплено» и «Пройдено» с личной оценкой от 1 до 10.
 - Экспорт коллекции в TXT и красивый PDF с обложками.
 - Публичная ссылка на личный топ пройденных игр.
-- Информация о ценах и предзаказах по мере появления данных магазинов.
+- Цены, предзаказы, действующие скидки и компактная история изменений по официальным магазинам.
 - Локализация RU/EN, светлая и тёмная темы.
 - Веб-приложение и нативная Android-сборка.
 - Автономное обновление Android напрямую из GitHub Releases с проверкой SHA-256.
@@ -184,7 +184,7 @@ GamesTrack собирает игровые релизы в одном катал
 ## Установка
 
 1. Откройте [последний релиз](https://github.com/svllvsxprod/gamestrack-releases/releases/latest).
-2. Скачайте файл `GamesTrack-0.2.3.apk`.
+2. Скачайте файл `GamesTrack-0.2.5.apk`.
 3. Откройте APK на Android-устройстве и подтвердите установку из выбранного источника.
 4. При первом запуске разрешите уведомления, если хотите получать напоминания о релизах.
 
